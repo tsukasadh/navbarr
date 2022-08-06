@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+</head>
+<body>
+    <!--LA NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <ul class="nav-menu">
+                <div class="test">
+                    <div class="logo"></div>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">IPad </a></li>
+                <li><a href="#">IPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">TV & Maison</a></li>
+                <li><a href="#">Exclusivités Apple</a></li>
+                <li><a href="#">Accessoires</a></li>
+                <li><a href="#">Assistance</a></li>
+                </div>
+            
+                
+            </ul>
+        </div>
+        <!--LES ICONES DE L'HAMBURGER-->
+        <!--ICONE PANIER-->
+        <img src="media/empty-cart.png" alt="" class="iconepanier">
+        <!--ICONE APPLE-->
+        <img src="media/R (1).png" alt="" class="logo">
+        <!--ICONE MENU HAMBURGER-->
+        <img src="media/menu-icon-png-3-lines-14 (1).jpg" alt="menu-hamburger" class="menu-hamburger">
+        
+    </nav>
+    <!--L'HAMBURGER-->
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+
+
+
+    
+</body>
+<!--LE PROGRAMME POUR L'HAMBURGER-->
+<script>
+     const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".test")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
+</html>

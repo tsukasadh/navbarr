@@ -1,0 +1,206 @@
+* {
+    margin: auto;
+    padding: 0%;
+    text-decoration: none;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(210, 208, 208);
+}
+
+a:hover {
+    color: white;
+    transition: 0.2s;
+    text-align: center;
+}
+
+.logo {
+    background-image: url(media/R\ \(1\).png);
+    height: 25px;
+    width: 30px;
+    background-size: cover;
+    align-items: center;
+    margin-right: 500px;
+    margin-bottom: 8px;
+}
+
+.navbar .menu-hamburger {
+        display: none;
+        width: 35px;
+        top: 0px;
+        right: 50px;
+        position: absolute;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 12.5px;
+    height: 35px;
+    background-color:rgb(62, 62, 62);
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    padding: 0px 10px;
+    text-align: center;
+    transform: all 0.3s ease;
+    
+}
+
+.iconepanier {
+    display: none;
+}
+
+.test.mobile-menu {
+    margin-left: 0%;
+}
+
+
+
+@media screen and (max-width:900px){
+    
+    
+    
+    .navbar {
+        
+        background-color: gray;
+    }
+    
+    .iconepanier {
+        display: block;
+        height: 40px;
+        width: 45px;
+        margin-left: 20px;
+    }
+
+    
+    .logo {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 227px;
+        height: 55px;
+        width: 55px;
+        top: -7.5px;
+
+
+        
+    }
+    
+    .test {
+        top: 0%;
+        left: 0%;
+    position: absolute;
+    flex-direction: column;
+    background-color: black;
+    backdrop-filter: blur(3.5px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: -120%;
+    background-color: black;
+    transform: all 0.3s ease;
+
+        
+    }
+   
+   
+
+
+
+    
+    .navbar .menu-hamburger {
+        display: block;
+        width: 35px;
+        position: absolute;
+       margin-right: 0px;
+       
+    
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    
+    a {
+        text-align: left;
+    }
+    
+    .navbar {
+        
+        background-color: gray;
+    }
+    
+    .iconepanier {
+        display: block;
+        height: 40px;
+        width: 45px;
+        margin-left: 5px;
+    }
+
+    
+    .logo {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 170px;
+        height: 55px;
+        width: 55px;
+        top: -7.5px;
+
+
+        
+    }
+    
+    .test {
+        top: 0%;
+        left: 0%;
+    position: absolute;
+    flex-direction: column;
+    background-color: black;
+    backdrop-filter: blur(3.5px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: -120%;
+    background-color: black;
+    transform: all 0.3s ease;
+    text-align: left;
+padding-left: 70px;
+    padding-top: 10px;
+   
+ 
+
+        
+    }
+   .test li a {
+    text-align: left;
+   }
+   
+
+
+
+    
+    .navbar .menu-hamburger {
+        display: block;
+        width: 35px;
+        position: absolute;
+       margin-right: -45px;
+       top: 5px;
+    
+    }
+    
+}
+
